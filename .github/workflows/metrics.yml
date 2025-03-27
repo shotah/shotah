@@ -17,5 +17,5 @@ jobs:
         with:
           token: ${{ secrets.GITHUBTOKEN }}
           plugin_languages: yes
-          plugin_languages_ignored: html, css, c
+          plugin_languages_ignored: html, css, C, c
           plugin_traffic: yes
